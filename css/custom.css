@@ -1,17 +1,4 @@
 html,body{overflow-x:hidden; background: rgba(128, 128, 128, 0.02);}
-iframe
-{
-transform: scale(1.5);
--ms-transform: scale(1.5); 
--webkit-transform: scale(1.5); 
--o-transform: scale(1.5); 
--moz-transform: scale(1.5); 
-transform-origin: top left;
--ms-transform-origin: top left;
--webkit-transform-origin: top left;
--moz-transform-origin: top left;
--webkit-transform-origin: top left;
-}
 .container-fluid{margin:0;padding:0;font-family:Times New Roman;}
 .jumbotron{padding:25px 50px 0 50px !important; background: rgba(128, 128, 128, 0.02);}
 .jumbotron .row{margin-left:0;}
@@ -414,7 +401,7 @@ footer .col-xs-6{min-height: 177px;}
 .dropdown-menu li a{color:white;}
 .ulList{position: relative; top: -70px; padding-bottom: 0; margin-bottom: 0;}
 .rangeUp{position: relative; top: -55px;}
-.share_box{position:fixed; width:50px; height:300px; top:30%; left:0%; border:3px solid #a1a1a1; background:#FFF;padding:15px;
+.share_box{position:fixed; width:130px; height:130px; top:30%; left:0%; border:3px solid #a1a1a1; background:#FFF;padding:15px;
 -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 }
 /* css for hoover dropdown for screen >767px*/
