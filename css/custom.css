@@ -371,7 +371,7 @@ footer .col-xs-6{min-height: 177px;}
 .ulList{position: relative; top: -70px; padding-bottom: 0; margin-bottom: 0;}
 .rangeUp{position: relative; top: -55px;}
 .share_box{position:fixed; width:50px; height:300px; top:30%; left:0%; border:3px solid #a1a1a1; background:#FFF;padding:15px;
--webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display:block !important;}
 }
 @media only screen and (min-width:1025px){.container .jumbotron, .container-fluid .jumbotron{padding-right:0;padding-left:0;}
 #title{display:block;text-align:right;}
@@ -404,6 +404,7 @@ footer .col-xs-6{min-height: 177px;}
 .rangeUp{position: relative; top: -55px;}
 .share_box{position:fixed; width:130px; height:130px; top:40%; left:0%; padding:15px;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; padding: 10px 10px; dislay:block;}
 #lin{padding: 10px 10px;}
+.share_box{display:block !important;}
 }
 /* css for hoover dropdown for screen >767px*/
 @media screen and (min-width: 768px){
