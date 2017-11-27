@@ -138,6 +138,7 @@ footer a, footer ul span{color:black;}
 #products-div h1,h2{color:#235293;text-align:center;}
 #products-div p{text-align:justify; font-size:17px; color:#777; padding:0 20px;}
 .nav>li {text-align: center;}
+.share_box{display:none;}
 @media only screen and (min-device-width:260px) and (max-device-width:320px){
 #title{margin-right: 15px;  float: right;}
 .product__card{width:290px;}
@@ -401,8 +402,8 @@ footer .col-xs-6{min-height: 177px;}
 .dropdown-menu li a{color:white;}
 .ulList{position: relative; top: -70px; padding-bottom: 0; margin-bottom: 0;}
 .rangeUp{position: relative; top: -55px;}
-.share_box{position:fixed; width:130px; height:130px; top:30%; left:0%; border:3px solid #a1a1a1; background:#FFF;padding:15px;
--webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+.share_box{position:fixed; width:130px; height:130px; top:40%; left:0%; padding:15px;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; padding: 10px 10px; dislay:block;}
+#lin{padding: 10px 10px;}
 }
 /* css for hoover dropdown for screen >767px*/
 @media screen and (min-width: 768px){
